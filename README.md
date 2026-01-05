@@ -4,18 +4,17 @@ A constraint satisfaction algorithm that partitions 6,000+ students across multi
 
 ## Table of Contents
 
-- [Team Allocation Simulator](#team-allocation-simulator)
-- [Problem Statement](#-problem-statement)
-- [Algorithm Overview](#-algorithm-overview)
-- [Constraint Satisfaction Logic](#-constraint-satisfaction-logic)
+- [🎯 Problem Statement](#-problem-statement)
+- [🧠 Algorithm Overview](#-algorithm-overview)
+- [⚙️ Constraint Satisfaction Logic](#%EF%B8%8F-constraint-satisfaction-logic)
   - [Constraint Definitions](#constraint-definitions)
   - [Violation Detection](#violation-detection)
   - [Balancing Competing Constraints](#balancing-competing-constraints)
-- [Dynamic Constraint Relaxation](#-dynamic-constraint-relaxation)
-- [Execution Flow](#-execution-flow)
-- [How to Run](#-how-to-run)
-- [Technical Details](#-technical-details)
-- [Allocation Quality](#-allocation-quality)
+- [🔄 Dynamic Constraint Relaxation](#-dynamic-constraint-relaxation)
+- [▶️ Execution Flow](#%EF%B8%8F-execution-flow)
+- [📋 How to Run](#-how-to-run)
+- [🔧 Technical Details](#-technical-details)
+- [📊 Allocation Quality](#-allocation-quality)
 - [🧾 License](#-license)
 - [📬 Contact](#-contact)
 
@@ -58,9 +57,6 @@ This approach is appropriate because:
 **Gender Distribution**  
 For a tutorial with `M` males and `F` females across `k` groups of size `[s₁, s₂, ..., sₖ]`:
 
-<<<<<<< Updated upstream
-The program will then process all 120 tutorial groups and print the final team rosters for each one.
-=======
 ```
 males_in_group_i = round((M / (M + F)) × sᵢ)
 females_in_group_i = sᵢ - males_in_group_i
@@ -197,4 +193,3 @@ Developed by **Aaron Davis**
 Email: [aaronddavis001@gmail.com]
 
 LinkedIn: [https://linkedin.com/in/aaron-daniel-davis]
->>>>>>> Stashed changes
